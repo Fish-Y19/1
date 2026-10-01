@@ -1,0 +1,69 @@
+body{
+    font-family: Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+h1,h2,h3{
+    font-family: Georgia, serif;
+    color: #4B0082;
+}
+h1{
+    text-align: center;
+}
+h2{
+    border-top: solid 2px #09f3ff;
+    padding-top: 1em;
+}
+em{
+    font-weight: bold;
+    font-size: 120%;
+}
+blockquote{
+    background: #F0ECEC;;
+    margin: 1em;
+    font-style: italic;
+}
+.firstLetter{
+    font-size: 300%;
+    font-family: Georgia, serif;
+    color: #7B68EE;
+}
+.firstWord{
+    text-transform: uppercase;
+}
+#firstStory {
+    color: #4169E1;
+}
+#navigation{
+    font-family: Georgia, serif; font-size: 100%;
+    border-top: solid 2px #09f3ff;
+    border-bottom: solid 2px #09f3ff;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+a:link, a:active, a:visited {
+    color :rgb(37, 76, 161); text-decoration: none; font-weight: bold;
+} 
+a:hover{
+    color :rgb(200, 90, 247); text-decoration: underline ; font-weight: bold;
+}
+.wrapper { 
+    width: 80%;
+    margin: 5px auto;
+    padding:5px 30px;
+    border: solid 1px grey;
+    border-collapse:collapse;
+    color:#022560;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Ensure all text elements change to white in dark mode */
+.dark-mode h1, .dark-mode #firstStory, .dark-mode h2, .dark-mode h3, .dark-mode p, .dark-mode .firstLetter, .dark-mode .firstWord, .dark-modefirstStory , .dark-mode navigation, .dark-mode a {
+    color: white;
+}
